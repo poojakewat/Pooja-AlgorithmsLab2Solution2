@@ -4,11 +4,11 @@ public class MergeSort{
 
 	public static void merge(int arr[], int left, int mid, int right)
 	{
-		// Find sizes of two sub arrays to be merged
+		
 		int n1 = mid - left + 1;
 		int n2 = right - mid;
 
-		/* Create temporary arrays */
+		
 		int leftArray[] = new int [n1];
 		int rightArray[] = new int [n2];
 
